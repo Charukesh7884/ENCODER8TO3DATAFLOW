@@ -52,7 +52,7 @@ Figure 02  Encoder 8 * 3
 
 Developed by: CHARUKESH S
 
-Register Number: 
+Register Number: 212224230044
 
 
 **RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
