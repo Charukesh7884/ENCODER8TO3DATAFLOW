@@ -1,4 +1,5 @@
 ### ENCODER 8TO3 DATAFLOW Modelling
+**DATE: 8/11/2024**
 
 **AIM:**
 
@@ -53,14 +54,22 @@ Figure 02  Encoder 8 * 3
 Developed by: CHARUKESH S
 
 Register Number: 212224230044
+```
+module enc(a,b,c,y0,y1,y2,y3,y4,y5,y6,y7);
+input y0,y1,y2,y3,y4,y5,y6,y7;
+output a,b,c;
+assign a= ( y4 | y5 | y6 | y7);
+assign b= ( y2 | y3 | y6 | y7);
+assign c= ( y1 | y3 | y5 | y7);
+endmodule
+```
 
-
-**RTL LOGIC FOR Encoder 8 To 3 in Dataflow Modelling**
+**RTL DIAGRAM**
 
 ![image](https://github.com/user-attachments/assets/0af80115-f452-421a-ad96-c321e3ee2924)
 
 
-**TIMING WAVEFORM FOR Encoder 8 To 3 in Dataflow Modelling**
+**TIMING WAVEFORM**
 
 ![image](https://github.com/user-attachments/assets/4a4e511e-4446-4f9f-b069-d21d33219a01)
 
