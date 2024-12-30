@@ -73,11 +73,9 @@ endmodule
 
 **TIMING WAVEFORM**
 
-![image](https://github.com/user-attachments/assets/62590e0b-73f1-436a-b934-8d43d7418379)
+![image](https://github.com/user-attachments/assets/8e05e7d3-057a-4345-990b-559a00b62fd5)
 
-
-
-**RESULTS**
+**RESULT**
 
 Thus, the implementation of the Encoder 8 to 3 in Dataflow Modelling using Verilog and the validation of its functionality through functional tables has been completed.
 
